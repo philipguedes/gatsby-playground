@@ -1,10 +1,12 @@
 import { Box, Text } from '@chakra-ui/react';
 import * as React from 'react';
 
+import Menu from 'components/Menu';
+
 const IndexPage = () => {
   return (
     <Box>
-      <Text variant="primary">oiiii</Text>
+      <Menu />
     </Box>
   );
 };
