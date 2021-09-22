@@ -6,6 +6,7 @@ import {
   useRadioGroup,
   Text,
   Flex,
+  useBreakpointValue,
 } from '@chakra-ui/react';
 import React from 'react';
 import { FC } from 'react';
@@ -36,7 +37,7 @@ const MenuButton: FC<any> = ({ label, ...rest }) => {
         }}
         my="8px"
       >
-        <Text>{label}</Text>
+        <Text fontSize="14px">{label}</Text>
       </Box>
     </Box>
   );
@@ -56,20 +57,28 @@ const MenuOptions = () => {
   });
 
   return (
-    <HStack {...getRootProps()} spacing="32px">
+    <HStack {...getRootProps()} spacing={{ sm: '24px', lg: '32px' }}>
       {options.map((value) => (
-        <MenuButton key="value" label={value} {...getRadioProps({ value })} />
+        <MenuButton key={value} label={value} {...getRadioProps({ value })} />
       ))}
     </HStack>
   );
 };
 
 const Menu = () => {
+  const showOptions = useBreakpointValue({ md: true });
+
   return (
-    <Flex align="center" justify="space-between" h="96px" p="4">
+    <Flex
+      position="sticky"
+      align="center"
+      justify="space-between"
+      h="96px"
+      p="4"
+    >
       <Logo />
 
-      <MenuOptions />
+      {showOptions && <MenuOptions />}
     </Flex>
   );
 };

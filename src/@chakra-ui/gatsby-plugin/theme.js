@@ -4,7 +4,8 @@ import components from './components';
 
 const theme = {
   colors: {
-    primary: 'rebeccapurple',
+    amarelo: '#D69E2E',
+    azul: '#29235C',
   },
   components,
 };
