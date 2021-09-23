@@ -70,11 +70,16 @@ const Menu = () => {
 
   return (
     <Flex
-      position="sticky"
+      position="fixed"
+      box-shadow="0px 4px 8px -1px rgba(0, 0, 0, 0.25);"
+      top="0"
+      width="100%"
       align="center"
       justify="space-between"
       h="96px"
       p="4"
+      bg="white"
+      zIndex="2"
     >
       <Logo />
 

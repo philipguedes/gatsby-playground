@@ -6,6 +6,8 @@ const theme = {
   colors: {
     amarelo: '#D69E2E',
     azul: '#29235C',
+    cinza: '#F7F7F7',
+    azul_gdsl: '#1A365D',
   },
   components,
 };
