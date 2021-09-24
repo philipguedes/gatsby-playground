@@ -5,6 +5,7 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-gatsby-cloud',
+    'gatsby-plugin-web-font-loader',
     '@chakra-ui/gatsby-plugin',
     `gatsby-plugin-tsconfig-paths`,
     {

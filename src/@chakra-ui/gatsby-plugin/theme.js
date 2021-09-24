@@ -1,3 +1,7 @@
+import '@fontsource/cormorant';
+import '@fontsource/metropolis';
+import '@fontsource/montserrat';
+
 import { extendTheme } from '@chakra-ui/react';
 
 import components from './components';

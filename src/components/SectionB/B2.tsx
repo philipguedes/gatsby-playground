@@ -1,6 +1,5 @@
 import React from 'react';
 import {
-  Flex,
   Box,
   VStack,
   Text,
@@ -50,7 +49,6 @@ const SectionB2 = () => {
   return (
     <HStack flexDir="row">
       {renderImage()}
-      {/* <Box> */}
       <VStack spacing="24px">
         <Text variant="h1">{TITLE}</Text>
         <Box>
@@ -61,11 +59,10 @@ const SectionB2 = () => {
             &emsp;{DESCRIPTION2}
           </Text>
         </Box>
-        <Text variant="p" fontWeight="bold">
+        <Text variant="p" fontWeight="bold" color="azul">
           {FOOTER}
         </Text>
       </VStack>
-      {/* </Box> */}
     </HStack>
   );
 };
