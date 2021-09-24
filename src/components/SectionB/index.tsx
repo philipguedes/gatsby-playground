@@ -1,17 +1,6 @@
 import React from 'react';
 
-import {
-  Image,
-  Center,
-  Button,
-  Stack,
-  Text,
-  Box,
-  Flex,
-  VStack,
-  StackDivider,
-  useBreakpointValue,
-} from '@chakra-ui/react';
+import { Box } from '@chakra-ui/react';
 
 import SectionB1 from './B1';
 import SectionB2 from './B2';

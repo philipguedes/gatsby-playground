@@ -54,12 +54,13 @@ const SectionB2 = () => {
         <Box>
           <Text variant="p" align="justify">
             &emsp;{DESCRIPTION1}
-            <br />
-            <br />
+          </Text>
+          <br />
+          <Text variant="p" align="justify">
             &emsp;{DESCRIPTION2}
           </Text>
         </Box>
-        <Text variant="p" fontWeight="bold" color="azul">
+        <Text variant="p" fontWeight="bold" color="azul" textAlign="center">
           {FOOTER}
         </Text>
       </VStack>
