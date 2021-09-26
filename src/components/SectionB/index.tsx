@@ -7,7 +7,7 @@ import SectionB2 from './B2';
 
 const SectionB = () => {
   return (
-    <Box bg="cinza" px={['16px', '48px']}>
+    <Box px={['16px', '48px']}>
       <Box bg="white" position="relative" bottom="32px" px="32px" py="32px">
         <SectionB1 />
       </Box>

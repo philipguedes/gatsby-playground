@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, VStack, Center, Text, HStack } from '@chakra-ui/react';
+import { Box, VStack, Center, Text, HStack, Flex } from '@chakra-ui/react';
 
 const TITLE = 'ÁREAS DE ATUAÇÃO';
 
@@ -33,24 +33,23 @@ const Item = ({ itemKey }: { itemKey: ItemKey }) => {
 
   return (
     <Box p="16px">
-      <HStack spacing="16px" alignItems="flex-start">
-        <Box pt="4px">
+      <VStack spacing="16px" alignItems="flex-start">
+        <HStack spacing="16px">
           <Box w="16px" h="16px" transform="rotate(-45deg);" bg="amarelo" />
-        </Box>
-        <VStack spacing="16px" alignItems="flex-start">
           <Text variant="h2">{title}</Text>
-          <Text variant="p">&emsp;&ensp;{description}</Text>
-        </VStack>
-      </HStack>
+        </HStack>
+
+        <Text variant="p">&emsp;&ensp;{description}</Text>
+      </VStack>
     </Box>
   );
 };
 
 const SectionC = () => {
   return (
-    <Box bg="white">
+    <Box bg="white" pb="56px">
       <Center position="relative" bottom="40px" p="16px">
-        <Box bg="white" px="64px" py="16px">
+        <Box bg="white" px={['40px', '64px']} py="16px">
           <Text variant="h1">{TITLE}</Text>
         </Box>
       </Center>

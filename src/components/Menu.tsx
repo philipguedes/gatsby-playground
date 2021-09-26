@@ -71,7 +71,7 @@ const Menu = () => {
   return (
     <Flex
       position="fixed"
-      box-shadow="0px 4px 8px -1px rgba(0, 0, 0, 0.25);"
+      boxShadow="0px 4px 8px -1px rgba(0, 0, 0, 0.25)"
       top="0"
       width="100%"
       align="center"
