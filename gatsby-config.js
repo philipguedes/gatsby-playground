@@ -5,6 +5,12 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-gatsby-cloud',
+    {
+      resolve: `gatsby-plugin-facebook-pixel`,
+      options: {
+        pixelId: '195322285854804',
+      },
+    },
     'gatsby-plugin-web-font-loader',
     '@chakra-ui/gatsby-plugin',
     `gatsby-plugin-tsconfig-paths`,
