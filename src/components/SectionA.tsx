@@ -6,24 +6,26 @@ import hands from 'images/hands.png';
 
 const SectionA = () => {
   return (
-    <Box
-      h={['320px', '400px', '496px']}
-      bgImage={hands}
-      bgSize="cover"
-      bgPos="center"
-    >
+    <Box display="flex" bgImage={hands} bgSize="cover" bgPos="center">
       <Flex
-        h="100%"
+        flex="1"
         bg="linear-gradient(255.96deg, rgba(0, 0, 0, 0.3) 0%, #171623 100%);"
       >
         <VStack
           align="start"
           justifyContent="center"
-          pl={['32px', '48px', '64px', '80px']}
+          mx={['32px', '64px', '80px']}
           maxW="480px"
+          mb={['80px']}
+          mt={['64px']}
           spacing="32px"
         >
-          <Text color="white" fontSize="18px" fontWeight="600">
+          <Text
+            // mr={['16px', '0px']}
+            color="white"
+            fontSize="18px"
+            fontWeight="600"
+          >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac
             congue nulla, et maximus ex. Fusce fermentum laoreet eros eu
             scelerisque. Mauris at molestie orci. Integer eleifend libero leo,

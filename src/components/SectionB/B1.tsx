@@ -51,7 +51,7 @@ const B1 = () => {
   return (
     <Stack
       direction={['column', 'column', 'row']}
-      spacing="16px"
+      spacing="32px"
       divider={<StackDivider borderColor="gray.200" />}
     >
       <Item itemKey="empatia" />

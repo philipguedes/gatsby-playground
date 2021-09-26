@@ -51,7 +51,7 @@ const SectionB2 = () => {
       {renderImage()}
       <VStack spacing="24px">
         <Text variant="h1">{TITLE}</Text>
-        <Box>
+        <Box px={['16px', '0px']}>
           <Text variant="p" align="justify">
             &emsp;{DESCRIPTION1}
           </Text>

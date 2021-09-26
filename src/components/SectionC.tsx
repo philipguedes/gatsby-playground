@@ -49,13 +49,18 @@ const Item = ({ itemKey }: { itemKey: ItemKey }) => {
 const SectionC = () => {
   return (
     <Box bg="white">
-      <Center position="relative" bottom="48px" p="16px">
+      <Center position="relative" bottom="40px" p="16px">
         <Box bg="white" px="64px" py="16px">
           <Text variant="h1">{TITLE}</Text>
         </Box>
       </Center>
 
-      <VStack pl="48px" spacing="32px" alignItems="flex-start">
+      <VStack
+        mt="-32px"
+        mx={['16px', '32px']}
+        spacing="32px"
+        alignItems="flex-start"
+      >
         <Item itemKey="trabalho" />
         <Item itemKey="penal" />
         <Item itemKey="civil" />
