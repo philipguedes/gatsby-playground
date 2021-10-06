@@ -3,6 +3,7 @@ import React from 'react';
 import { Button, Text, Box, Flex, VStack } from '@chakra-ui/react';
 
 import hands from 'images/hands.png';
+import { WHATSAPP_LINK } from 'utils';
 
 const SectionA = () => {
   return (
@@ -15,24 +16,26 @@ const SectionA = () => {
           align="start"
           justifyContent="center"
           mx={['32px', '64px', '80px']}
-          maxW="480px"
+          maxW="400px"
           mb={['80px']}
           mt={['64px']}
           spacing="32px"
         >
-          <Text
-            // mr={['16px', '0px']}
-            color="white"
-            fontSize="18px"
-            fontWeight="600"
-          >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac
-            congue nulla, et maximus ex. Fusce fermentum laoreet eros eu
-            scelerisque. Mauris at molestie orci. Integer eleifend libero leo,
-            placerat tempor dui ultrices eu.
+          <Text color="white" fontSize="18px" fontWeight="600">
+            Ética, objetividade e transparência serão os nossos compromissos com
+            você.
+            <br />
+            Aqui o Direito é levado a sério.
           </Text>
 
-          <Button bg="amarelo" textColor="azul" _hover={{ bg: 'amarelo' }}>
+          <Button
+            bg="amarelo"
+            textColor="azul"
+            _hover={{ bg: 'amarelo' }}
+            as="a"
+            href={WHATSAPP_LINK}
+            target="_blank"
+          >
             Fale conosco
           </Button>
         </VStack>
