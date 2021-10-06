@@ -11,6 +11,7 @@ module.exports = {
         pixelId: '195322285854804',
       },
     },
+    `gatsby-plugin-react-helmet`,
     'gatsby-plugin-web-font-loader',
     '@chakra-ui/gatsby-plugin',
     `gatsby-plugin-tsconfig-paths`,
