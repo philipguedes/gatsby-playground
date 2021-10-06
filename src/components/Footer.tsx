@@ -1,6 +1,14 @@
 import React from 'react';
 
-import { Box, Flex, Text, VStack, Image, Icon, HStack } from '@chakra-ui/react';
+import {
+  Box,
+  Stack,
+  Text,
+  VStack,
+  Image,
+  Icon,
+  HStack,
+} from '@chakra-ui/react';
 import { FaWhatsapp } from '@react-icons/all-files/fa/FaWhatsapp';
 import { AiOutlineMail } from '@react-icons/all-files/ai/AiOutlineMail';
 
@@ -26,7 +34,7 @@ const Footer = () => {
   };
 
   return (
-    <Box bg="azul_gdsl" mt="80px">
+    <Box bg="azul_gdsl" mt="80px" id="fale-conosco">
       <VStack
         py="40px"
         px="48px"
@@ -36,7 +44,11 @@ const Footer = () => {
       >
         <Image src={Logo} />
 
-        <Flex w="100%" flexDir="row">
+        <Stack
+          w="100%"
+          flexDir={['column', 'column', 'row']}
+          spacing={['32px', '32px', '8px']}
+        >
           <VStack flex="1" alignItems="flex-start">
             <Text fontWeight="700">Endereço:</Text>
             <Text>Avenida Marechal Rondon 1155</Text>
@@ -48,7 +60,7 @@ const Footer = () => {
             {renderItem('whatsapp')}
             {renderItem('mail')}
           </VStack>
-        </Flex>
+        </Stack>
       </VStack>
     </Box>
   );

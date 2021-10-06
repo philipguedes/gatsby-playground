@@ -25,9 +25,6 @@ const MenuButton: FC<any> = ({ label, ...rest }) => {
       <Box
         {...getCheckboxProps()}
         cursor="pointer"
-        // borderWidth="1px"
-        // borderRadius="md"
-        // boxShadow="md"
         _checked={{
           borderBottom: '2px solid rgba(196, 196, 196, 0.88)',
           fontWeight: 'bold',
@@ -45,21 +42,23 @@ const MenuButton: FC<any> = ({ label, ...rest }) => {
 
 const MenuOptions = () => {
   const options = [
-    'Quem somos nós',
-    'Nossos valores',
-    'Áreas de atuação',
-    'Fale conosco',
+    { label: 'Quem somos nós', value: '#quem-somos' },
+    { label: 'Nossos valores', value: '#nossos-valores' },
+    { label: 'Áreas de atuação', value: '#areas-atuacao' },
+    { label: 'Fale conosco', value: '#fale-conosco' },
   ];
 
   const { getRootProps, getRadioProps } = useRadioGroup({
     name: 'menu-options',
-    onChange: console.log,
+    onChange: (v) => {
+      window.location.href = v;
+    },
   });
 
   return (
     <HStack {...getRootProps()} spacing={{ sm: '24px', lg: '32px' }}>
-      {options.map((value) => (
-        <MenuButton key={value} label={value} {...getRadioProps({ value })} />
+      {options.map(({ value, label }) => (
+        <MenuButton key={label} label={label} {...getRadioProps({ value })} />
       ))}
     </HStack>
   );

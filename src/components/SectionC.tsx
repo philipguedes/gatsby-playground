@@ -47,7 +47,12 @@ const Item = ({ itemKey }: { itemKey: ItemKey }) => {
 
 const SectionC = () => {
   return (
-    <Box bg="white" pb="56px">
+    <Box
+      bg="white"
+      pb="56px"
+      id="areas-atuacao"
+      sx={{ scrollMarginTop: '160px' }}
+    >
       <Center position="relative" bottom="40px" p="16px">
         <Box bg="white" px={['40px', '64px']} py="16px">
           <Text variant="h1">{TITLE}</Text>
