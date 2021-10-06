@@ -14,17 +14,17 @@ const ITEMS: Items = {
   trabalho: {
     title: 'DIREITO DO TRABALHO',
     description:
-      'Especializados em direito e processo do trabalho, o time guedeselima esclarecerá as suas dúvidas sobre os fatos relativos ao seu contrato de trabalho e te ajudará a buscar reparação da violação de seus direitos trabalhistas.',
+      'Especializados em direito e processo do trabalho, o time Guedes & Lima esclarecerá as suas dúvidas sobre os fatos relativos ao seu contrato de trabalho e te ajudará a buscar reparação da violação de seus direitos trabalhistas.',
   },
   civil: {
     title: 'DIREITO CIVIL',
     description:
-      'No âmbito do Direito Civil, orientamos os nossos clientes em questões pertinentes  às relações  familiares, esclarecendo quais são os direitos e obrigações provenientes dessas relações, buscando promover a dignidade da pessoa humana e a igualdade substancial de seus membros.',
+      'No âmbito do Direito Civil, orientamos os nossos clientes em questões pertinentes às relações familiares, esclarecendo quais são os direitos e obrigações provenientes dessas relações, protegendo a dignidade da pessoa humana e a igualdade substancial de seus membros.',
   },
   penal: {
     title: 'DIREITO PENAL',
     description:
-      'Nossa área criminal é baseada em uma visão humanitária, onde não julgamos a situação de nossos clientes, sejam réus ou vítimas. Agimos sempre em defesa de seus direitos, verificando a regularidade da investigação, do processo criminal, e eventual prisão, para que não haja nenhum ilícito ou violação a qualquer garantia constitucional. Com sigilo, respeito, empatia e dedicação total a causa, buscamos atuar da melhor forma em favor de nossos clientes.',
+      'Nossa área criminal se baseia numa visão humanitária, onde não julgamos a situação de nossos clientes, sejam réus ou vítimas. Agimos sempre em defesa de seus direitos, verificando a regularidade da investigação, do processo criminal, e eventual prisão, para que não haja nenhum ilícito ou violação a qualquer garantia constitucional. Com sigilo, respeito, empatia e dedicação total à causa, atuamos da melhor maneira em favor de nossos clientes.',
   },
 };
 

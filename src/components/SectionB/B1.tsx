@@ -16,7 +16,7 @@ const ITEMS: Items = {
   empatia: {
     img: EMPATIA,
     title: 'EMPATIA',
-    text: 'Com empatia aos nossos clientes e aos seus problemas, buscamos ajudá-los com uma visão humanitária, os respeitando, sem qualquer julgamento.',
+    text: 'Com empatia aos nossos clientes e aos seus interesses, buscamos ajudá-los com estratégias objetivas, os respeitando, sem qualquer julgamento.',
   },
   dedicacao: {
     img: DEDICACAO,
@@ -26,7 +26,7 @@ const ITEMS: Items = {
   resiliencia: {
     img: RESILIENCIA,
     title: 'RESILIÊNCIA',
-    text: 'Buscamos solucionar seus problemas de forma resiliente, estamos juntos até o final do processo, sempre buscando a melhor forma de garantir seus direitos.',
+    text: 'Atuamos de forma resiliente em busca dos melhores resultados para nossos clientes. Estaremos juntos até o final do processo, sempre buscando a melhor forma de garantir seus direitos.',
   },
 };
 

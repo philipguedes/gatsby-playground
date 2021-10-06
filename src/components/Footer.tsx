@@ -12,7 +12,7 @@ const Footer = () => {
       return (
         <HStack flexDir="row" justify="center">
           <Icon boxSize="24px" as={FaWhatsapp} />
-          <Text>{'(+55)(11) 99999-9999'}</Text>
+          <Text>{'(21) 98560-7302'}</Text>
         </HStack>
       );
     }
