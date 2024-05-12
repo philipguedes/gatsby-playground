@@ -20,7 +20,7 @@ const Footer = () => {
       return (
         <HStack flexDir="row" justify="center">
           <Icon boxSize="24px" as={FaWhatsapp} />
-          <Text>{'(21) 98560-7302'}</Text>
+          <Text>{'(21) 96893-3095'}</Text>
         </HStack>
       );
     }
@@ -51,7 +51,7 @@ const Footer = () => {
         >
           <VStack flex="1" alignItems="flex-start">
             <Text fontWeight="700">Endereço:</Text>
-            <Text>Avenida Marechal Rondon 1155</Text>
+            <Text>Rua da Assembléia, 10 - Centro</Text>
             <Text>Rio de Janeiro - RJ</Text>
           </VStack>
 
